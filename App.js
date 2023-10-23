@@ -1,25 +1,31 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-// import Login from './components/Login';
-// import Register from './components/Register';
-import Home from './components/Home';
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 import Restuarants from './components/Restuarants';
 
-export default function App() {
+
+
+const MyComponent = () => {
   return (
-    <View >
-    <Restuarants />
+    <View style={styles.container}>
+      
+      <Restuarants />
     </View>
   );
-}
+};
+
+export default MyComponent;
+
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
-    // backgroundColor: '#fff',
-    // alignItems: 'center',
-    // justifyContent: 'center',
-    // width: 600,
-    // height: 400,
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#fff',
+  },
+  text: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#333',
   },
 });
