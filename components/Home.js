@@ -227,19 +227,6 @@ const styles = StyleSheet.create({
     opacity: 0.8,
   },
   next: {
-    fontFamily: "Rubik",
-    fontWeight: "900",
-    fontSize: 20,
-    justifyContent: "center",
-    alignItems: "center",
-    color: "#459C97",
-    width: 326,
-    height: 40,
-    alignItems: "center",
-    backgroundColor: "#FFFFFF",
-    padding: 10,
-    marginTop: 30,
-    marginBottom: 30,
-    borderRadius: 10,
+   
   },
 });

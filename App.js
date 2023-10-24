@@ -1,6 +1,9 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import Restuarants from './components/Restuarants';
+import RestInfor from './components/RestInfor';
+import Rest from './components/res';
+import Menu from './components/Menu';
 
 
 
@@ -8,7 +11,7 @@ const MyComponent = () => {
   return (
     <View style={styles.container}>
       
-      <Restuarants />
+   <Menu />
     </View>
   );
 };
