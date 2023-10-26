@@ -4,6 +4,8 @@ import Restuarants from './components/Restuarants';
 import RestInfor from './components/RestInfor';
 import Rest from './components/res';
 import Menu from './components/Menu';
+import Reserv from './components/Reserv';
+import Register from './components/Register';
 
 
 
@@ -11,7 +13,7 @@ const MyComponent = () => {
   return (
     <View style={styles.container}>
       
-   <Menu />
+   <Register />
     </View>
   );
 };
